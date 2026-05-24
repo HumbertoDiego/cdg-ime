@@ -8,3 +8,6 @@ VISÃO GERAL DA DISCIPLINA
 
 [Semana 1 - Prospecção de dados](https://github.com/HumbertoDiego/cdg-ime/blob/main/Prospec%C3%A7%C3%A3o.ipynb)
 
+<!-- 
+jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --post serve
+ -->
