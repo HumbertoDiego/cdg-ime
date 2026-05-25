@@ -5,3 +5,6 @@ uv.lock
 *.html
 *.tif
 *.tif.aux.xml
+*.zip
+
+copernicus_cred.txt
