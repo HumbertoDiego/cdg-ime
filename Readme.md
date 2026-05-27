@@ -6,10 +6,10 @@ VISÃO GERAL DA DISCIPLINA
 
 <img src="media/imgs/Ciência de dados geoespaciais.png">
 
-[Semana 1 - Prospecção de dados](https://github.com/HumbertoDiego/cdg-ime/blob/main/Prospec%C3%A7%C3%A3o.ipynb)
-[Semana 2 - Pré Processamento](https://github.com/HumbertoDiego/cdg-ime/blob/main/PreProcessamento.ipynb)
-[Semana 3 - Pré Processamento](https://github.com/HumbertoDiego/cdg-ime/blob/main/PreProcessamento.ipynb)
-[Semana 4 - Mineração](https://github.com/HumbertoDiego/cdg-ime/blob/main/Minera%C3%A7%C3%A3o.ipynb)
+- [Semana 1 - Prospecção de dados](https://github.com/HumbertoDiego/cdg-ime/blob/main/Prospec%C3%A7%C3%A3o.ipynb)
+- [Semana 2 - Pré Processamento](https://github.com/HumbertoDiego/cdg-ime/blob/main/PreProcessamento.ipynb)
+- [Semana 3 - Pré Processamento](https://github.com/HumbertoDiego/cdg-ime/blob/main/PreProcessamento.ipynb)
+- [Semana 4 - Mineração](https://github.com/HumbertoDiego/cdg-ime/blob/main/Minera%C3%A7%C3%A3o.ipynb)
 <!-- 
 jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --post serve
  -->
