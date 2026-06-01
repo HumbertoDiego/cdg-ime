@@ -6,5 +6,6 @@ uv.lock
 *.tif
 *.tif.aux.xml
 *.zip
+*.gpkg
 
 copernicus_cred.txt
