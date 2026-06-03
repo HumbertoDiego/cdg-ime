@@ -27,5 +27,6 @@ REQUISITOS:
 
 
 <!-- 
+git add * ; git commit -m "aula update"; git push cgd main
 jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --post serve
  -->
