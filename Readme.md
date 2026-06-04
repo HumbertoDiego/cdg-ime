@@ -30,7 +30,12 @@ REQUISITOS:
 
   - `VSCode` > `Select Kernel` > `Jupyter Kernel...` > `cdg-ime (pixi)`
 
-
 <!-- 
+git add * ; git commit -m "aula update"; git push cdg main
 jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --post serve
+
+reset
+git init 
+git remote add cdg https://github.com/HumbertoDiego/cdg-ime
+git add * ; git commit -m "aula update"; git push cdg main
  -->
