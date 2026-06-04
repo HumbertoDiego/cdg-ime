@@ -37,5 +37,5 @@ jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_
 reset
 git init 
 git remote add cdg https://github.com/HumbertoDiego/cdg-ime
-git add * ; git commit -m "aula update"; git push cdg main
+git add * ; git commit -m "aula update"; git push cdg main  --force
  -->
