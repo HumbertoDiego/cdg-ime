@@ -1,0 +1,12 @@
+.venv
+.pixi/
+cache/
+
+*.html
+*.tif
+*.tif.aux.xml
+*.zip
+*.gpkg
+*.qgs
+
+copernicus_cred.txt
