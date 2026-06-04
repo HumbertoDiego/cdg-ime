@@ -15,6 +15,8 @@ SUMÁRIO:
 REQUISITOS:
 
 - [pixi](https://pixi.sh/latest/)
+- [VSCode](https://code.visualstudio.com/)
+- [Extensao Pixi para VSCode](https://marketplace.visualstudio.com/items?itemName=prefix-dev.pixi)
 - `pixi install`
 - Para executar comandos no ambiente:
 
@@ -32,7 +34,7 @@ REQUISITOS:
 
 <!-- 
 git add * ; git commit -m "aula update"; git push cdg main
-jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --post serve
+jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
 
 reset
 git init 

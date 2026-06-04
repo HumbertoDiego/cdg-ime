@@ -25,6 +25,7 @@ platforms = ["win-64"]
 
 [tool.pixi.dependencies]
 python = "3.14.*"
+sympy = ">=1.14.0,<2"
 
 [tool.pixi.tasks]
 kernel = "python -m ipykernel install --user --name cdg-ime --display-name \"cdg-ime (pixi)\""
