@@ -1,5 +1,6 @@
 .venv
 .pixi/
+.vscode/
 cache/
 
 *.html

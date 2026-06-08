@@ -1,6 +1,6 @@
 # Ciência de Dados Geoespaciais IME
 
-Aulas de Ciência de Dados Geoespaciais ministradas para o 3ª ano do Curso de Engenharia Cartográfica do Instituto Militar de Engenharia - Rio de Janeiro/RJ
+Aulas de Ciência de Dados Geoespaciais ministradas para o 3º ano do Curso de Engenharia Cartográfica do Instituto Militar de Engenharia - Rio de Janeiro/RJ.
 
 VISÃO GERAL DA DISCIPLINA:
 
@@ -14,30 +14,30 @@ SUMÁRIO:
 
 REQUISITOS:
 
-- [pixi](https://pixi.sh/latest/)
-- [VSCode](https://code.visualstudio.com/)
-- [Extensao Pixi para VSCode](https://marketplace.visualstudio.com/items?itemName=prefix-dev.pixi)
-- `pixi install`
-- Para executar comandos no ambiente:
+- [Python 3.12](https://www.python.org/downloads/)
+- VS Code
+- Extensão Jupyter do VS Code
+- QGIS instalado, se for executar as células que chamam `gdalinfo.exe`, `gdalwarp.exe`, `ogrinfo.exe` ou `qgis_process-qgis-ltr.bat`
 
-  - `pixi run <comando>`
-- Para abrir um shell com o ambiente ativado:
+CRIAR O AMBIENTE:
 
-  - `pixi shell`
-- Para registrar o kernel do Jupyter:
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1 
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
-  - `pixi run kernel`
-- Feche o terminal e, se necessário, reinicie o VSCode
-- Para ativar neste notebook:
+SELECIONAR O KERNEL NO VS CODE:
 
-  - `VSCode` > `Select Kernel` > `Jupyter Kernel...` > `cdg-ime (pixi)`
+- `Select Kernel` > `Jupyter Kernel...` > `.venv\Scripts\python.exe`
 
-<!-- 
+<!--
 git add * ; git commit -m "aula update"; git push cdg main
 jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
 
 reset
-git init 
+git init
 git remote add cdg https://github.com/HumbertoDiego/cdg-ime
-git add * ; git commit -m "aula update"; git push cdg main  --force
- -->
+git add * ; git commit -m "aula update"; git push cdg main --force
+-->
