@@ -30,7 +30,7 @@ CRIAR O AMBIENTE:
 
 SELECIONAR O KERNEL NO VS CODE:
 
-- `Select Kernel` > `Jupyter Kernel...` > `.venv\Scripts\python.exe`
+- `Select Kernel` > `Python Environments...` > `.venv\Scripts\python.exe`
 
 DICAS PARA GERENCIAR MÚLTIPLAS VERSÕES PYTHON:
 

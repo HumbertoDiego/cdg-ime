@@ -25,6 +25,7 @@ requests>=2.32,<3
 gdown>=5.2,<6
 pystac-client>=0.8,<1
 awscli>=1.38,<2
+lxml>=6.1,<7
 
 # Mapping, graph, and ML examples used by the notebooks
 folium>=0.19,<1
