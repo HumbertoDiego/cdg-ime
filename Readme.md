@@ -53,6 +53,8 @@ DICAS PARA GERENCIAR MÚLTIPLAS VERSÕES PYTHON:
 <!--
 git add * ; git commit -m "aula update"; git push cdg main
 jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
+jupyter nbconvert --to slides PreProcessamento.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
+jupyter nbconvert --to slides Mineração.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
 
 reset
 git init
