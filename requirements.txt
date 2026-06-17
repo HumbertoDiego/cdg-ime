@@ -10,6 +10,7 @@ scipy>=1.15,<2
 matplotlib>=3.10,<4
 seaborn>=0.13,<1
 sympy>=1.14,<2
+plotly>=6.8,<6.9
 
 # Geospatial stack
 geopandas>=1.1,<2
