@@ -8,9 +8,10 @@ VISÃO GERAL DA DISCIPLINA:
 
 SUMÁRIO:
 
-- [Prospecção de dados](https://github.com/HumbertoDiego/cdg-ime/blob/main/Prospec%C3%A7%C3%A3o.ipynb)
-- [Pré Processamento](https://github.com/HumbertoDiego/cdg-ime/blob/main/PreProcessamento.ipynb)
-- [Mineração](https://github.com/HumbertoDiego/cdg-ime/blob/main/Minera%C3%A7%C3%A3o.ipynb)
+- [Ambientação](https://github.com/HumbertoDiego/cdg-ime/blob/main/01_Ambientação.ipynb): Projetos disponíveis.
+- [Prospecção de dados](https://github.com/HumbertoDiego/cdg-ime/blob/main/02_Prospec%C3%A7%C3%A3o.ipynb): O que é ciência de dados geoespaciais, tipos de dados, dados vetoriais, dados raster, SRC/CRS, datasets públicos, APIs, OGC, STAC, web scraping, pesquisa acadêmica.
+- [Pré-processamento](https://github.com/HumbertoDiego/cdg-ime/blob/main/03_PreProcessamento.ipynb): Qualidade de dados, completude, consistência, validade, padronização, validação geométrica, metadados raster, NoData, reamostragem, outliers, completamento, normalização.
+- [Mineração](https://github.com/HumbertoDiego/cdg-ime/blob/main/04_Minera%C3%A7%C3%A3o.ipynb): Análise exploratória, estatísticas descritivas, MVC, PCA, correlação, Pearson, Spearman, gráficos, mapas coropléticos, atributos geoespaciais, Índice de Moran, clusterização, K-médias, DBSCAN, introdução a classificação e regressão.
 
 REQUISITOS:
 
@@ -41,7 +42,7 @@ DICAS PARA GERENCIAR MÚLTIPLAS VERSÕES PYTHON:
 > $Env:PYTHON_MANAGER_DEFAULT = "3.12" # Altera a versão para esta seção de terminal apenas
 > python --version # Python 3.12.10 --> Daqui pode-se criar o ambiente
 ```
-- Após criar o ambiente verifique se está usando uma cópia do python3.12 da pasta .venv:
+- Após criar o ambiente, verifique se está usando uma cópia do Python 3.12 da pasta `.venv`:
 ```powershell
 > python -c "import sys; print(sys.executable)" # C:\Users\...\Python\pythoncore-3.12-64\python.exe
 > python -m venv .venv
