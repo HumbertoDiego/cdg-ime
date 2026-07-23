@@ -52,13 +52,17 @@ DICAS PARA GERENCIAR MÚLTIPLAS VERSÕES PYTHON:
 
 
 <!--
+git pull cdg main
+git submodule update --init --recursive
+# Do edit then push back:
 git add * ; git commit -m "aula update"; git push cdg main
-jupyter nbconvert --to slides Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
-jupyter nbconvert --to slides PreProcessamento.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
-jupyter nbconvert --to slides Mineração.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
 
-reset
+# See slides:
+jupyter nbconvert --to slides 02_Prospecção.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
+
+# Reset:
 git init
 git remote add cdg https://github.com/HumbertoDiego/cdg-ime
 git add * ; git commit -m "aula update"; git push cdg main --force
+
 -->
