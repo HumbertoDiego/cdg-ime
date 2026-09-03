@@ -2,6 +2,8 @@
 .pixi/
 .vscode/
 cache/
+S1_mosaic/
+S1_prepared/
 
 *.html
 *.tif
@@ -11,4 +13,8 @@ cache/
 *.qgs
 
 copernicus_cred.txt
+aoi.geojson
+*.pkl
+matriz_confusao.png
+resultado_classificacao.png
 rf_individualtree.png
