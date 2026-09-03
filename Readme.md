@@ -12,6 +12,8 @@ SUMÁRIO:
 - [Prospecção de dados](https://github.com/HumbertoDiego/cdg-ime/blob/main/02_Prospec%C3%A7%C3%A3o.ipynb): O que é ciência de dados geoespaciais, tipos de dados, dados vetoriais, dados raster, SRC/CRS, datasets públicos, APIs, OGC, STAC, web scraping, pesquisa acadêmica.
 - [Pré-processamento](https://github.com/HumbertoDiego/cdg-ime/blob/main/03_PreProcessamento.ipynb): Qualidade de dados, completude, consistência, validade, padronização, validação geométrica, metadados raster, NoData, reamostragem, outliers, completamento, normalização.
 - [Mineração](https://github.com/HumbertoDiego/cdg-ime/blob/main/04_Minera%C3%A7%C3%A3o.ipynb): Análise exploratória, estatísticas descritivas, MVC, PCA, correlação, Pearson, Spearman, gráficos, mapas coropléticos, atributos geoespaciais, Índice de Moran, clusterização, K-médias, DBSCAN, introdução a classificação e regressão.
+- [Modelos I](https://github.com/HumbertoDiego/cdg-ime/blob/main/05_Modelagem_I.ipynb): Classificadores lineares, regressão logística, árvores de decisão, floresta aleatória, suport vector machine (SVM), regressão linear, árvores de regressão, floresta de regressão e multilayer perceptron (MLP).
+- [Modelos II](https://github.com/HumbertoDiego/cdg-ime/blob/main/05_Modelagem_II.ipynb): Segmentação semântica em imagem radar por Random Forest.
 
 REQUISITOS:
 
@@ -19,19 +21,6 @@ REQUISITOS:
 - [VS Code](https://code.visualstudio.com/)
 - [Extensão Jupyter do VS Code](https://marketplace.visualstudio.com/search?term=jupyter&target=VSCode&category=All%20categories&sortBy=Relevance)
 - [QGIS](https://qgis.org/) (Para execução de `gdalinfo.exe`, `gdalwarp.exe`, `ogrinfo.exe` ou `qgis_process-qgis-ltr.bat`)
-
-CRIAR O AMBIENTE:
-
-```powershell
-> python -m venv .venv
-> .\.venv\Scripts\Activate.ps1 
-(.venv) > python -m pip install --upgrade pip
-(.venv) > python -m pip install -r requirements.txt
-```
-
-SELECIONAR O KERNEL NO VS CODE:
-
-- `Select Kernel` > `Python Environments...` > `.venv\Scripts\python.exe`
 
 DICAS PARA GERENCIAR MÚLTIPLAS VERSÕES PYTHON:
 
@@ -49,6 +38,21 @@ DICAS PARA GERENCIAR MÚLTIPLAS VERSÕES PYTHON:
 > .\.venv\Scripts\Activate.ps1 
 (.venv) > python -c "import sys; print(sys.executable)" # ...\cdg-ime\.venv\Scripts\python.exe
 ```
+
+CRIAR O AMBIENTE:
+
+```powershell
+> python -m venv .venv
+> .\.venv\Scripts\Activate.ps1 
+(.venv) > python -m pip install --upgrade pip
+(.venv) > python -m pip install -r requirements.txt
+```
+
+SELECIONAR O KERNEL NO VS CODE:
+
+- `Select Kernel` > `Python Environments...` > `.venv\Scripts\python.exe`
+
+
 
 
 <!--
